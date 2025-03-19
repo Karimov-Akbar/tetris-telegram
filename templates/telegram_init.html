@@ -87,6 +87,28 @@
             50% { transform: translateY(0); }
             100% { transform: translateY(-50px); }
         }
+
+        @media (max-width: 768px) {
+            .tetris-block {
+                width: 25px;
+                height: 25px;
+            }
+            
+            h1 {
+                font-size: 1.5em;
+            }
+            
+            p {
+                font-size: 0.9em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .tetris-block {
+                width: 20px;
+                height: 20px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -145,4 +167,3 @@
     </script>
 </body>
 </html>
-
